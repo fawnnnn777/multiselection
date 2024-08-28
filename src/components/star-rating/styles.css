@@ -1,3 +1,9 @@
 .active{
-    color: pink;
+    color: rgb(252, 235, 82);
 }
+
+.inactive{
+    color: black;
+}
+
+

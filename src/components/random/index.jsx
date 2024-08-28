@@ -37,11 +37,11 @@ export default function Random(){
 
     return(
         <div style={{
-            width: "100vw",
+            width: "100%",
             height: "100vh",
             background: color
         }} 
-        className="container">
+        >
             <button onClick={()=>setType('hex')}>Clear Hex Color</button>
             <button onClick={()=>setType('rgb')}>Clear RGB Color</button>
             <button onClick={type === 'hex' ? createHexColor : createRgbColor}>Generate Random Color</button>
